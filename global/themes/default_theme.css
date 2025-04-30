@@ -1,0 +1,15 @@
+:root {
+    /* Theme Background Colors */
+    --blackback: black;
+    --whiteback: white;
+    --darkback: #14213d;
+    --lightback: #e5e5e5;
+    --boldback: #fca311;
+
+    /* Font Colors */
+    --lightfont: #fca311;
+    --darkfont: #14213d;
+
+    /* Shadow Colors */
+    --dark-shadow: #14213d;
+}

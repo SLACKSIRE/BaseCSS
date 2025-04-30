@@ -1,0 +1,8 @@
+/* Initialize all global css files. Call this file to link everything into DOM */
+
+@import url('/themes/default_theme.css');
+@import url('/divs.css');
+@import url('/modifiers.css');
+@import url('/sections.css');
+@import url('/fonts.css');
+@import url('/body.css');

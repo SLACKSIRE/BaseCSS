@@ -1,0 +1,60 @@
+@keyframes color-shift {
+    0% {
+        box-shadow: 0 0 20px var(--card-color-1);
+    }
+    25% {
+        box-shadow: 0 0 20px var(--card-color-2);
+    }
+    50% {
+        box-shadow: 0 0 20px var(--card-color-3);
+    }
+    75% {
+        box-shadow: 0 0 20px var(--card-color-4);
+    }
+    100% {
+        box-shadow: 0 0 20px var(--card-color-1);
+    }
+}
+
+@keyframes breathe-color-shift {
+    0% {
+        box-shadow: 0 0 20px var(--card-color-1);
+        scale: initial;
+    }
+    25% {
+        box-shadow: 0 0 20px var(--card-color-2);
+        scale: 1.01;
+    }
+    50% {
+        box-shadow: 0 0 20px var(--card-color-3);
+        scale: initial;
+    }
+    75% {
+        box-shadow: 0 0 20px var(--card-color-4);
+        scale: 1.01;
+    }
+    100% {
+        box-shadow: 0 0 20px var(--card-color-1);
+        scale: initial;
+    }
+}
+
+@keyframes shift-in-from-left {
+    0% {
+        left: -100%;
+    }
+}
+
+@keyframes shift-in-from-right {
+    0% {
+        filter: opacity(0);
+        transform: translateX(110vw);
+    }
+    50% {
+        transform: translateX(-10px);
+    }
+    80% {
+        filter: opacity(100%);
+        transform: translateX(0);
+    }
+}

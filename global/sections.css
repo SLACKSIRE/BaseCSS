@@ -1,0 +1,18 @@
+section {
+    display: grid;
+    grid-template-columns: 15vw 70vw 15vw;
+    width: 100vw;
+    margin: 0 auto;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+@media only screen and (max-width: 991px) {
+
+section {
+    display: block;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}
+
+}

@@ -1,0 +1,13 @@
+.--centered {
+    text-align: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.--rounded {
+    border-radius: 10%;
+}
+
+.--raised {
+    box-shadow: 1px 1px 5px var(--dark-shadow);
+}
